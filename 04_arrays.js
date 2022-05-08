@@ -34,6 +34,7 @@ fruits.sort()
 console.log('sorted fruit array is', fruits)
 
 //Sorting arrayws with numbers
+//Use b-a to sort descending
 var values2 = [9, 5, 1, 10, 7]
 console.log('sorted number array is', values2.sort((a,b)=> a-b))
 

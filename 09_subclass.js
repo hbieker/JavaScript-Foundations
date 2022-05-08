@@ -6,6 +6,7 @@ class Pet extends Person
 
 get location()
 {
+    //If location is not specified here it will use the parent class
     return "Animal Shelter"
 }
 constructor (firstName, lastName)
