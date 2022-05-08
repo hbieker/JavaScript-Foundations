@@ -6,6 +6,19 @@ console.log("Hello, World")
 //ES5 engine uses only "var"
 //ES6 engine can use "let", "const". constant variables cannot be reassigned
 
+//SCOPE LEVEL DIFFERENCES
+//var declared at the top are global and can be used anywhere
+//var in if statement are global
+//var in a function are only available in the function itself
+
+//let declared at the top are global and can be used anywhere
+//let declared in if block are not visible outside
+//let in a function is only available in the function itself
+
+//both var and let can be reinitialized (a new value assigned)
+//const is similar to let, but cannot be reinitialized (it's a constant)
+
+
 let b=5 
 let c="test"
 let toggle=true
