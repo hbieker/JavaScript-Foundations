@@ -1,5 +1,7 @@
-//Objects are collections of properties
+//Require classes file in order to create new object
+const Person = require('./08_classes')
 
+//Objects are collections of properties
 let person = {
     firstName:'John',
     lastName:'Doe', 
@@ -31,3 +33,8 @@ for(let key in person)
 {
     console.log(person[key])
 }
+
+//Creating a new object from the Person class in the 08_classes.js file
+let person2 = new Person("Mike", "Smith")
+console.log('Full name from the person2 object is: ')
+console.log(person2.fullName())
